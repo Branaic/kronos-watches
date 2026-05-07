@@ -231,3 +231,34 @@ footer p {
     margin-bottom: 5px;
     font-size: 14px;
 }
+@media (max-width: 768px) {
+    nav {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #hero {
+        padding: 0 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    #watches {
+        padding: 40px 20px;
+    }
+
+    .watches-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #features {
+        padding: 40px 20px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
